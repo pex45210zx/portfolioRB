@@ -1,9 +1,14 @@
-import React, { useState, useEffect } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import { ArrowRightCircle } from 'react-bootstrap-icons'
-import headerImg from '../assets/img/header-img.svg'
+import React, { useState, useEffect } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import avatar from '../assets/img/profile-pic.svg';
+import { ArrowDownCircle } from 'react-bootstrap-icons';
 
 export const Banner = () => {
+    const handleClick = () => {
+        const skillsSection = document.getElementById('skills');
+        skillsSection.scrollIntoView({ behavior: 'smooth' });
+    };
+
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const toRotate = ['Web Developer', 'Web Designer', 'UI/UX Designer'];
@@ -14,10 +19,12 @@ export const Banner = () => {
     useEffect(() => {
         let ticker = setInterval(() => {
             tick();
-        }, delta)
+        }, delta);
 
-        return () => { clearInterval(ticker) };
-    }, [text])
+        return () => {
+            clearInterval(ticker);
+        };
+    }, [text]);
 
     const tick = () => {
         let i = loopNum % toRotate.length;
@@ -27,7 +34,7 @@ export const Banner = () => {
         setText(updateText);
 
         if (isDeleting) {
-            setDelta(prevDelta => prevDelta / 2)
+            setDelta(prevDelta => prevDelta / 2);
         }
 
         if (!isDeleting && updateText === fullText) {
@@ -38,7 +45,7 @@ export const Banner = () => {
             setLoopNum(loopNum + 1);
             setDelta(500);
         }
-    }
+    };
 
     return (
         <section className='banner' id='home'>
@@ -47,14 +54,14 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className='tagline'>Welcome to my Portfolio</span>
                         <h1>{`Hi! I'm Spextre `}<span className='wrap'>{text}</span></h1>
-                        <p>สวัสดีครับ ผมเด็กจบใหม่ต้องการประสบการณ์ใหม่ๆจากการทำงาน</p>
-                        <button onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25} /></button>
+                        <p>สวัสดีครับ ผมชื่อเป็กซ์ครับนักศึกษาจบใหม่สนใจในทำงานด้าน Front-End Develop/Web Develop/Web Design/UX/UI Design ตอนนี้กำลังศึกษาด้าน Back-End และต้องการประสบการณ์ใหม่ๆจากการทำงาน และพร้อมที่จะเรียนรู้สิ่งใหม่ๆตลอดเวลา</p>
+                        <button onClick={handleClick}><ArrowDownCircle size={25} />  Let's See</button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt='Headder Img' />
+                        <img src={avatar} alt='Headder Img' />
                     </Col>
                 </Row>
             </Container>
         </section>
-    )
-}
+    );
+};
