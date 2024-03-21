@@ -53,7 +53,7 @@ export const Banner = () => {
                 <Row className='allign-item-center'>
                     <Col xs={12} md={6} xl={7}>
                         <span className='tagline'>Welcome to my Portfolio</span>
-                        <h1>{`Hi! I'm Spextre `}<span className='wrap'>{text}</span></h1>
+                        <h1>{`Hello, I'm Spextre `}<span className='wrap'><br/>{text}</span></h1>
                         <p>สวัสดีครับ ผมชื่อเป็กซ์ครับนักศึกษาจบใหม่สนใจในทำงานด้าน Front-End Develop/Web Develop/Web Design/UX/UI Design ตอนนี้กำลังศึกษา Next.js, typeScript, Tailwind CSS เเละด้าน Back-End Node.js, Express.js และต้องการประสบการณ์ใหม่ๆจากการทำงาน และพร้อมที่จะเรียนรู้สิ่งใหม่ๆตลอดเวลา</p>
                         <button onClick={handleClick}><ArrowDownCircle size={25} />  Let's See</button>
                     </Col>
