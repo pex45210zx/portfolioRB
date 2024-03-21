@@ -273,6 +273,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+@media screen and (max-width: 480px) {
+  .custom-profile {
+    width: 60px;
+    height: 60px;
+  }
+
+  .social-icon {
+    margin-left: 0;
+  }
+}
+
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -582,7 +594,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative; /* Add this to make the position of the text relative */
+  position: relative;
+  /* Add this to make the position of the text relative */
 }
 
 .footer img {
@@ -597,4 +610,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
-
+.social-icon-wrap {
+  margin-top: 50px;
+}

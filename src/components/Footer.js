@@ -12,9 +12,10 @@ export const Footer = () => {
                     <Col sm={6}>
                         {/* <img src={logo} alt='Logo'/> */}
                     </Col>
-                        <Col sm={6} className='text-center text-sm-end'>
+                    <Col sm={6} className='text-center text-sm-end'>
 
-                            <div className='social-icon'>
+                        <div className='social-icon'>
+                            <div className='social-icon-wrap'>
                                 <a href='https://www.linkedin.com/in/siravat-matarach-30b4882bb/' target='_blank' rel='noopener noreferrer'>
                                     <img src={linkedIn} alt='LinkedIn' />
                                 </a>
@@ -25,10 +26,10 @@ export const Footer = () => {
                                     <img src={githubIcon} alt='GitHub' />
                                 </a>
                             </div>
-
-                            <p>Email : pex_der@outlook.co.th</p>
-                            <p>CopyRight 2024. All Right Reserved</p>
-                        </Col>
+                        </div>
+                        <p>Email : pex_der@outlook.co.th</p>
+                        <p>CopyRight 2024. All Right Reserved</p>
+                    </Col>
                 </Row>
             </Container>
         </footer>

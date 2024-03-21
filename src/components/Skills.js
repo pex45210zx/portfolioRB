@@ -1,7 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import colorSharp from '../assets/img/bg-sk.svg';
+import colorSharp from '../assets/img/bgsk.svg';
 import Level from '../assets/img/Level.png';
 import basic from '../assets/img/Basic.svg'
 import intermediate from '../assets/img/intermediate.svg'
