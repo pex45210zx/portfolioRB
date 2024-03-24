@@ -315,8 +315,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   display: block;
+}
+
+.wrap {
+  display: block; /* Ensure linear gradient applies to text */
+  background: linear-gradient(to right, #264aa7, #082b46, #081b47, #ab2f5f, #ab2f5f, #ab2f5f);
+  -webkit-background-clip: text; /* Apply gradient to text */
+  -webkit-text-fill-color: transparent; /* Hide original text */
+  margin-top: -50px;
+  padding-bottom: 20px;
 }
 
 .banner p {
@@ -392,12 +401,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .banner p {
     text-align: center;
     margin: 0 10px 0 10px;
+    font-size: 14px;
   }
 
   .wrap {
     display: flex;
     justify-content: center;
-    margin-top: -40px;
+    margin-top: -30px;
+    padding-bottom: 10px;
   }
 
   .banner button {
