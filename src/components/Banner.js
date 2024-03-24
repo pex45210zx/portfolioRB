@@ -60,7 +60,9 @@ export const Banner = () => {
                                 {text}
                             </span>
                         </h1>
-                        <p>สวัสดีครับ ผมชื่อเป็กซ์ครับนักศึกษาจบใหม่ยังไม่มีประสบการณ์ครับ สนใจในทำงานด้าน Front-End Develop/Web Develop/Web Design/UX/UI Design ตอนนี้กำลังศึกษา Next.js, typeScript, Tailwind CSS เเละด้าน Back-End Node.js, Express.js และต้องการประสบการณ์ใหม่ๆจากการทำงาน และพร้อมที่จะเรียนรู้สิ่งใหม่ๆตลอดเวลา</p>
+                        <div class="descript-area">
+                            <p>สวัสดีครับ ผมชื่อเป็กซ์ครับนักศึกษาจบใหม่ยังไม่มีประสบการณ์ครับ สนใจในทำงานด้าน Front-End Develop/Web Develop/Web Design/UX/UI Design ตอนนี้กำลังศึกษา Next.js, typeScript, Tailwind CSS เเละด้าน Back-End Node.js, Express.js และต้องการประสบการณ์ใหม่ๆจากการทำงาน และพร้อมที่จะเรียนรู้สิ่งใหม่ๆตลอดเวลา</p>
+                        </div>
                         <div class="butt-area">
                             <button className='cv-butt'>Download CV</button>
                             <h2>or</h2>
