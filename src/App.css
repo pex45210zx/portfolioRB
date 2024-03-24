@@ -336,7 +336,63 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 96%;
 }
 
-.banner button {
+.butt-area {
+  display: flex;
+}
+
+.butt-area h2 {
+  color: #B8B8B8;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-right: 10px;
+}
+
+.cv-butt {
+  color: #B8B8B8;
+  font-weight: 700;
+  font-size: 20px;
+  background: transparent; 
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0px 20px;
+  border-radius: 50px; /* Initially set to a round shape */
+  cursor: pointer;
+  width: auto;
+  height: 50px;
+  margin-top: 60px;
+  margin-right: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease-in-out; /* Transition the color change with ease-in-out timing function */
+  z-index: 1;
+}
+
+.cv-butt::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%; /* Initially, position the pseudo-element in the middle */
+  transform: translate(-50%, -50%); /* Center the pseudo-element */
+  width: 0; /* Start with no width */
+  height: 0; /* Start with no height */
+  background: linear-gradient(to right, #081b47, #ab2f5f); /* Gradient from left to right */
+  border-radius: 50%; /* Set border-radius to create a circular shape */
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out; /* Transition the width and height with ease-in-out timing function */
+  z-index: -1;
+}
+
+.cv-butt:hover::before {
+  width: 200%; /* Expand the pseudo-element to cover the button area on hover */
+  height: 200%; /* Expand the pseudo-element to cover the button area on hover */
+}
+
+.cv-butt:hover {
+  color: #fff; /* Hide the text on hover */
+  border: 1px solid rgb(255, 255, 255);
+  transition: all 0.5s;
+
+}
+
+.down-butt {
   color: #fff;
   font-weight: 700;
   font-size: 20px;
@@ -346,7 +402,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
 }
 
-.banner button svg {
+.down-butt svg {
   font-size: 25px;
   margin-left: 10px;
   margin-right: 10px;
@@ -354,7 +410,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
 }
 
-.banner button:hover svg {
+.down-butt:hover svg {
   margin-left: 25px;
 }
 
@@ -411,11 +467,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding-bottom: 10px;
   }
 
-  .banner button {
-    margin-top: 10px;
-    background-position: absolute;
+  .butt-area {
+    margin-top: -35px;
+    margin-bottom: 10px;
+    justify-content: center;
   }
 
+  .cv-butt {
+    font-size: 16px;
+    height: 45px;
+  }
+
+  .down-butt {
+    font-size: 16px;
+  }
 
 }
 

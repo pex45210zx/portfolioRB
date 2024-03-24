@@ -61,7 +61,11 @@ export const Banner = () => {
                             </span>
                         </h1>
                         <p>สวัสดีครับ ผมชื่อเป็กซ์ครับนักศึกษาจบใหม่ยังไม่มีประสบการณ์ครับ สนใจในทำงานด้าน Front-End Develop/Web Develop/Web Design/UX/UI Design ตอนนี้กำลังศึกษา Next.js, typeScript, Tailwind CSS เเละด้าน Back-End Node.js, Express.js และต้องการประสบการณ์ใหม่ๆจากการทำงาน และพร้อมที่จะเรียนรู้สิ่งใหม่ๆตลอดเวลา</p>
-                        <button onClick={handleClick}><ArrowDownCircle size={25} />  Let's See</button>
+                        <div class="butt-area">
+                            <button className='cv-butt'>Download CV</button>
+                            <h2>or</h2>
+                            <button className='down-butt' onClick={handleClick}><ArrowDownCircle size={25} />  Let's See</button>
+                        </div>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={avatar} alt='Headder Img' />
