@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolioRB/static/css/main.b2412b57.css",
+    "main.css": "/portfolioRB/static/css/main.70648fc3.css",
     "main.js": "/portfolioRB/static/js/main.0f8d0aa2.js",
     "static/js/453.acca0757.chunk.js": "/portfolioRB/static/js/453.acca0757.chunk.js",
     "static/media/HRMS-proj.svg": "/portfolioRB/static/media/HRMS-proj.7ea81ea62f1f85524e747799e4d1a24a.svg",
@@ -47,12 +47,12 @@
     "index.html": "/portfolioRB/index.html",
     "static/media/nav-icon1.svg": "/portfolioRB/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/portfolioRB/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.b2412b57.css.map": "/portfolioRB/static/css/main.b2412b57.css.map",
+    "main.70648fc3.css.map": "/portfolioRB/static/css/main.70648fc3.css.map",
     "main.0f8d0aa2.js.map": "/portfolioRB/static/js/main.0f8d0aa2.js.map",
     "453.acca0757.chunk.js.map": "/portfolioRB/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2412b57.css",
+    "static/css/main.70648fc3.css",
     "static/js/main.0f8d0aa2.js"
   ]
 }
