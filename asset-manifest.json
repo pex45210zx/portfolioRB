@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/portfolioRB/static/css/main.4e0647af.css",
-    "main.js": "/portfolioRB/static/js/main.924ec7b3.js",
+    "main.js": "/portfolioRB/static/js/main.5b6b59b9.js",
     "static/js/453.41811d64.chunk.js": "/portfolioRB/static/js/453.41811d64.chunk.js",
-    "static/media/profile-pic.svg": "/portfolioRB/static/media/profile-pic.8e7c5c3d05d9680e2be4d3be75a51b82.svg",
-    "static/media/personal-Avatar.svg": "/portfolioRB/static/media/personal-Avatar.9a2751e032fc53e9de69432e24220094.svg",
-    "static/media/color-sharp2.png": "/portfolioRB/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/Level.png": "/portfolioRB/static/media/Level.dff88365544ea17bb1a2.png",
     "static/media/bgsk.png": "/portfolioRB/static/media/bgsk.20f7a41e84e70fc766e4.png",
     "static/media/HRMS-proj.png": "/portfolioRB/static/media/HRMS-proj.0ca44123f6575a44e26c.png",
     "static/media/background-1.png": "/portfolioRB/static/media/background-1.2c26018b94e56442d0b8.png",
+    "static/media/profile-pic.png": "/portfolioRB/static/media/profile-pic.7239d8cff857d5e65e7f.png",
     "static/media/footer-bg.png": "/portfolioRB/static/media/footer-bg.42c5409aa5bbeaafa19d.png",
     "static/media/CentraNo2-Bold.ttf": "/portfolioRB/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolioRB/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/Aquatic-Chiller-proj.png": "/portfolioRB/static/media/Aquatic-Chiller-proj.cc8d39ed97d549769cd8.png",
     "static/media/CentraNo2-Book.ttf": "/portfolioRB/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/personal-Avatar.png": "/portfolioRB/static/media/personal-Avatar.3a707da1f8547560a392.png",
     "static/media/Basic-bootstrap.png": "/portfolioRB/static/media/Basic-bootstrap.749e785500d362043e28.png",
     "static/media/intermediate-react-vite.png": "/portfolioRB/static/media/intermediate-react-vite.680a3687eec5442f9f7f.png",
     "static/media/advanced-chatGPT.png": "/portfolioRB/static/media/advanced-chatGPT.98b9fbfe7bc73dcc18aa.png",
@@ -48,11 +47,11 @@
     "static/media/nav-icon1.svg": "/portfolioRB/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/portfolioRB/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.4e0647af.css.map": "/portfolioRB/static/css/main.4e0647af.css.map",
-    "main.924ec7b3.js.map": "/portfolioRB/static/js/main.924ec7b3.js.map",
+    "main.5b6b59b9.js.map": "/portfolioRB/static/js/main.5b6b59b9.js.map",
     "453.41811d64.chunk.js.map": "/portfolioRB/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e0647af.css",
-    "static/js/main.924ec7b3.js"
+    "static/js/main.5b6b59b9.js"
   ]
 }
