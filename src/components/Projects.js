@@ -1,8 +1,8 @@
 import { Col, Container, Row, Tab, Nav } from "react-bootstrap";
 import { ProjectCards } from "./ProjectCards";
 import colorSharp2 from "../assets/img/color-sharp2.png"
-import AquaticCH from "../assets/img/Aquatic-Chiller-proj.svg"
-import hrms from "../assets/img/HRMS-proj.svg"
+import AquaticCH from "../assets/img/Aquatic-Chiller-proj.png"
+import hrms from "../assets/img/HRMS-proj.png"
 
 export const Projects = () => {
     const projects = [
