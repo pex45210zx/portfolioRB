@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import avatar from '../assets/img/profile-pic.svg';
+import avatar from '../assets/img/profile-pic.png';
 import { ArrowDownCircle } from 'react-bootstrap-icons';
 
 export const Banner = () => {
