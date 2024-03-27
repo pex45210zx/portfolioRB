@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Container, Navbar, Nav } from 'react-bootstrap'
-import profileHi from '../assets/img/personal-Avatar.svg'
+import profileHi from '../assets/img/personal-Avatar.png'
 import linkedIn from '../assets/img/nav-icon1.svg'
 import faceBook from '../assets/img/nav-icon2.svg'
 import githubIcon from '../assets/img/github-Icon.svg'
