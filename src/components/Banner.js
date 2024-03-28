@@ -48,7 +48,7 @@ export const Banner = () => {
     };
 
     const handleDownload = () => {
-        window.open("https://drive.google.com/file/d/122KaLQzSvOwzv3GG1bGdxBSnTA5P-jNi/view?usp=sharing", '_blank');
+        window.open("https://drive.google.com/file/d/12qUjtPn0sIsDwHhhGqs8_wF4DygUBeSx/view?usp=sharing", '_blank');
     };    
 
     return (
