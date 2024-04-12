@@ -48,7 +48,7 @@ export const Banner = () => {
     };
 
     const handleDownload = () => {
-        window.open("https://drive.google.com/file/d/12qUjtPn0sIsDwHhhGqs8_wF4DygUBeSx/view?usp=sharing", '_blank');
+        window.open('https://drive.google.com/file/d/1easQClGN3f8Tr9ZZaSp6MckCzv7LoG0U/view?usp=sharing');
     };    
 
     return (
@@ -65,7 +65,7 @@ export const Banner = () => {
                             </span>
                         </h1>
                         <div class="descript-area">
-                            <p>สวัสดีครับ ผมชื่อเป็กซ์ครับนักศึกษาจบใหม่ยังไม่มีประสบการณ์ครับ สนใจในทำงานด้าน Front-End Develop/Web Develop/Web Design/UX/UI Design ตอนนี้กำลังศึกษา Next.js, typeScript, Tailwind CSS เเละด้าน Back-End Node.js, Express.js และต้องการประสบการณ์ใหม่ๆจากการทำงาน และพร้อมที่จะเรียนรู้สิ่งใหม่ๆตลอดเวลา</p>
+                            <p>สวัสดีครับ ผมชื่อเป็กซ์ครับนักศึกษาจบใหม่ยังไม่มีประสบการณ์ครับ สนใจในทำงานด้าน Front-End Develop/Web Develop/Web Design/UX/UI Design และต้องการประสบการณ์ใหม่ๆจากการทำงาน และผมมีความกระตือรือร้นพร้อมที่จะเรียนรู้สิ่งใหม่ๆตลอดเวลาเพื่อพัฒนาศักยภาพของตัวเองในการทำงานครับ.</p>
                         </div>
                         <div class="butt-area">
                             <button className='cv-butt' onClick={handleDownload}>Download CV</button>
